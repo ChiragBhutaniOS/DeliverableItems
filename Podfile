@@ -16,3 +16,6 @@ target 'DeliverableItems' do
   end
 
 end
+
+
+git pull origin master --allow-unrelated-histories
