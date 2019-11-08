@@ -8,19 +8,19 @@
 
 import Foundation
 
-struct Deliverable{
+struct Deliverable : Codable{
     let id : Int?
     let description: String?
     let imageUrl: String?
-    let location: [String: Any]?
+    let location: DeliverableLocation?
 }
 
-//extension Deliverable {
-//    enum CodingKeys: String, CodingKey {
-//        //Encoding/decoding will only include the properties defined in this enum, rest will be ignored
-//        case id
-//        case description
-//        case imageUrl
-//        case location
-//    }
-//}
+extension Deliverable {
+    enum CodingKeys: String, CodingKey {
+        //Encoding/decoding will only include the properties defined in this enum, rest will be ignored
+        case id
+        case description
+        case imageUrl
+        case location
+    }
+}

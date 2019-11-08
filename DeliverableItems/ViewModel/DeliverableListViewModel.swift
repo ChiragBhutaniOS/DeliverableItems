@@ -93,23 +93,21 @@ class DeliverableDataFactory: NSObject {
         let parameters = ["offset": 0, "limit": 20]
         
          //Load Deliverable data
-        Alamofire.request(url!, method: .get, parameters: parameters, encoding: Alamofire.JSONEncoding.default)
-            .responseJSON { response in
-                debugPrint(response)
-                
-                if let data = response.result.value{
-                    // Response type-1
-                    if  (data as? [[String : AnyObject]]) != nil{
-                        
-                        
-                        print("data_1: \(data)")
-
-                    }
+//        Alamofire.request(url!, method: .get, parameters: parameters, encoding: Alamofire.JSONEncoding.default)
+//            .responseJSON { response in
+//                debugPrint(response)
+//                    if let data = response.result.value{
+//                    // Response type-1
+//                    if  (data as? [[String : AnyObject]]) != nil{
+//
+//
+//                        print("data_1: \(data)")
+//
+//                    }
 //                    // Response type-2
 //                    if  (data as? [String : AnyObject]) != nil{
 //                        print("data_2: \(data)")
 //                    }
                 }
-        }
 }
-}
+

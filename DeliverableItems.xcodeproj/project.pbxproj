@@ -13,6 +13,15 @@
 		4E0FE6162373F34C0091A779 /* DeliverableListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0FE6152373F34C0091A779 /* DeliverableListViewModel.swift */; };
 		4E0FE61823740FE30091A779 /* DynamicValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0FE61723740FE30091A779 /* DynamicValue.swift */; };
 		4E305A7D23748DF200E386D8 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4E305A7C23748DED00E386D8 /* README.md */; };
+		4E305A8B2375657D00E386D8 /* DeliverableLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E305A8A2375657D00E386D8 /* DeliverableLocation.swift */; };
+		4E305A93237567C200E386D8 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E305A8F237567C200E386D8 /* DataManager.swift */; };
+		4E305A94237567C200E386D8 /* ServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E305A90237567C200E386D8 /* ServiceManager.swift */; };
+		4E305A95237567C200E386D8 /* CoreDataManager+Operations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E305A91237567C200E386D8 /* CoreDataManager+Operations.swift */; };
+		4E305A96237567C200E386D8 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E305A92237567C200E386D8 /* CoreDataManager.swift */; };
+		4E305A9A2375692500E386D8 /* DeliveryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E305A992375692500E386D8 /* DeliveryService.swift */; };
+		4E305A9F23756A4900E386D8 /* Url+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E305A9E23756A4900E386D8 /* Url+Utility.swift */; };
+		4E305AA123756ABF00E386D8 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E305AA023756ABF00E386D8 /* Utility.swift */; };
+		4E305AA323756B6F00E386D8 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E305AA223756B6F00E386D8 /* Constants.swift */; };
 		4E8C63852372961500A0AAC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8C63842372961500A0AAC1 /* AppDelegate.swift */; };
 		4E8C638D2372961500A0AAC1 /* DeliverableItems.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4E8C638B2372961500A0AAC1 /* DeliverableItems.xcdatamodeld */; };
 		4E8C638F2372961700A0AAC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E8C638E2372961700A0AAC1 /* Assets.xcassets */; };
@@ -53,6 +62,15 @@
 		4E1E578E426B64DE1BA90A98 /* Pods_DeliverableItemsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DeliverableItemsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E305A7C23748DED00E386D8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4E305A7E237534EA00E386D8 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Podfile; path = "../../../../../Downloads/DeliverableItems-master/Podfile"; sourceTree = "<group>"; };
+		4E305A8A2375657D00E386D8 /* DeliverableLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliverableLocation.swift; sourceTree = "<group>"; };
+		4E305A8F237567C200E386D8 /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		4E305A90237567C200E386D8 /* ServiceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceManager.swift; sourceTree = "<group>"; };
+		4E305A91237567C200E386D8 /* CoreDataManager+Operations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CoreDataManager+Operations.swift"; sourceTree = "<group>"; };
+		4E305A92237567C200E386D8 /* CoreDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		4E305A992375692500E386D8 /* DeliveryService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeliveryService.swift; sourceTree = "<group>"; };
+		4E305A9E23756A4900E386D8 /* Url+Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Url+Utility.swift"; sourceTree = "<group>"; };
+		4E305AA023756ABF00E386D8 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		4E305AA223756B6F00E386D8 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		4E8C63812372961500A0AAC1 /* DeliverableItems.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeliverableItems.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E8C63842372961500A0AAC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4E8C638C2372961500A0AAC1 /* DeliverableItems.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DeliverableItems.xcdatamodel; sourceTree = "<group>"; };
@@ -115,6 +133,7 @@
 			children = (
 				4E0FE60F2373F2DE0091A779 /* DeliverableDataModel.swift */,
 				4E0FE61723740FE30091A779 /* DynamicValue.swift */,
+				4E305A8A2375657D00E386D8 /* DeliverableLocation.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -133,6 +152,35 @@
 				4E0FE6152373F34C0091A779 /* DeliverableListViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		4E305A8C2375662000E386D8 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				4E305A92237567C200E386D8 /* CoreDataManager.swift */,
+				4E305A91237567C200E386D8 /* CoreDataManager+Operations.swift */,
+				4E305A8F237567C200E386D8 /* DataManager.swift */,
+				4E305A90237567C200E386D8 /* ServiceManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		4E305A98237568F700E386D8 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				4E305A992375692500E386D8 /* DeliveryService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		4E305A9D23756A3400E386D8 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				4E305A9E23756A4900E386D8 /* Url+Utility.swift */,
+				4E305AA023756ABF00E386D8 /* Utility.swift */,
+				4E305AA223756B6F00E386D8 /* Constants.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 		4E8C63782372961500A0AAC1 = {
@@ -164,6 +212,9 @@
 		4E8C63832372961500A0AAC1 /* DeliverableItems */ = {
 			isa = PBXGroup;
 			children = (
+				4E305A9D23756A3400E386D8 /* Utils */,
+				4E305A98237568F700E386D8 /* Service */,
+				4E305A8C2375662000E386D8 /* Manager */,
 				4E0FE60E2373F29E0091A779 /* Model */,
 				4E0FE6112373F30A0091A779 /* View */,
 				4E0FE6122373F3140091A779 /* ViewModel */,
@@ -214,6 +265,7 @@
 				4E8C637E2372961500A0AAC1 /* Frameworks */,
 				4E8C637F2372961500A0AAC1 /* Resources */,
 				01C184EC9C4B614AC083DE50 /* [CP] Embed Pods Frameworks */,
+				4E305A972375684600E386D8 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -370,6 +422,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		4E305A972375684600E386D8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n";
+		};
 		F1F23BD70D1B4957FF7F673C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -399,13 +468,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E305A95237567C200E386D8 /* CoreDataManager+Operations.swift in Sources */,
+				4E305AA323756B6F00E386D8 /* Constants.swift in Sources */,
+				4E305A94237567C200E386D8 /* ServiceManager.swift in Sources */,
 				4E0FE6142373F3320091A779 /* DeliverableListViewController.swift in Sources */,
+				4E305A9A2375692500E386D8 /* DeliveryService.swift in Sources */,
+				4E305A93237567C200E386D8 /* DataManager.swift in Sources */,
+				4E305A8B2375657D00E386D8 /* DeliverableLocation.swift in Sources */,
 				4E8C63BA2372C8E300A0AAC1 /* Extension.swift in Sources */,
 				4E8C63BC2372CB6400A0AAC1 /* DeliverableCell.swift in Sources */,
+				4E305A96237567C200E386D8 /* CoreDataManager.swift in Sources */,
 				4E8C63852372961500A0AAC1 /* AppDelegate.swift in Sources */,
 				4E8C638D2372961500A0AAC1 /* DeliverableItems.xcdatamodeld in Sources */,
 				4E0FE6102373F2DE0091A779 /* DeliverableDataModel.swift in Sources */,
+				4E305AA123756ABF00E386D8 /* Utility.swift in Sources */,
 				4E0FE6162373F34C0091A779 /* DeliverableListViewModel.swift in Sources */,
+				4E305A9F23756A4900E386D8 /* Url+Utility.swift in Sources */,
 				4E0FE61823740FE30091A779 /* DynamicValue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

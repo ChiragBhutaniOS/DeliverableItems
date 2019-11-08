@@ -8,7 +8,7 @@ target 'DeliverableItems' do
   # Pods for DeliverableItems
 	pod 'SDWebImage', '~> 5.0'
 	pod 'SwiftLint'
-  pod 'Alamofire'
+  pod 'Alamofire', '~> 5.0.0-beta.3'
 
   target 'DeliverableItemsTests' do
     inherit! :search_paths
