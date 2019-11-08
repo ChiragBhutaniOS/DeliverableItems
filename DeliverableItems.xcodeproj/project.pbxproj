@@ -13,6 +13,7 @@
 		4E0FE6162373F34C0091A779 /* DeliverableListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0FE6152373F34C0091A779 /* DeliverableListViewModel.swift */; };
 		4E0FE61823740FE30091A779 /* DynamicValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0FE61723740FE30091A779 /* DynamicValue.swift */; };
 		4E305A7D23748DF200E386D8 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4E305A7C23748DED00E386D8 /* README.md */; };
+		4E305A7F237534EA00E386D8 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 4E305A7E237534EA00E386D8 /* Podfile */; };
 		4E8C63852372961500A0AAC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8C63842372961500A0AAC1 /* AppDelegate.swift */; };
 		4E8C638D2372961500A0AAC1 /* DeliverableItems.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4E8C638B2372961500A0AAC1 /* DeliverableItems.xcdatamodeld */; };
 		4E8C638F2372961700A0AAC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E8C638E2372961700A0AAC1 /* Assets.xcassets */; };
@@ -50,6 +51,7 @@
 		4E0FE6152373F34C0091A779 /* DeliverableListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeliverableListViewModel.swift; sourceTree = "<group>"; };
 		4E0FE61723740FE30091A779 /* DynamicValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicValue.swift; sourceTree = "<group>"; };
 		4E305A7C23748DED00E386D8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4E305A7E237534EA00E386D8 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Podfile; path = "../../../../../Downloads/DeliverableItems-master/Podfile"; sourceTree = "<group>"; };
 		4E8C63812372961500A0AAC1 /* DeliverableItems.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeliverableItems.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E8C63842372961500A0AAC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4E8C638C2372961500A0AAC1 /* DeliverableItems.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DeliverableItems.xcdatamodel; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 		0C93E9185B7F3586F04AB104 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
+				4E305A7E237534EA00E386D8 /* Podfile */,
 				356883987D17CE4ACF32D19F /* Pods-DeliverableItems.debug.xcconfig */,
 				B8030803AD74E34941E7F8E9 /* Pods-DeliverableItems.release.xcconfig */,
 				5439DD7FE4F86FBDEF13A32E /* Pods-DeliverableItemsTests.debug.xcconfig */,
@@ -307,6 +310,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E305A7F237534EA00E386D8 /* Podfile in Resources */,
 				4E305A7D23748DF200E386D8 /* README.md in Resources */,
 				4E8C638F2372961700A0AAC1 /* Assets.xcassets in Resources */,
 			);
